@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="w-100 h-100 justify-content-center align-items-center">
+    
+    <span class="titleCardBox">
+        <p id="myCardNumber" class="">#### #### #### ####</p>
+        <div class="d-flex justify-content-between gap-5">
+            <div id="myCardHolders" class="">
+                <p>Card Holders</p>
+                <span><strong class="setMyName">Full Name</strong></span>
+            </div>
+            <div id="myCardExpires" class="">
+                <p>Expires</p>
+                <span><strong class="setMyExpires"></strong></span>
+            </div>
+        </div>
+    </span>
+    <div class="w-100 h-50 d-flex justify-content-center align-items-center">
+        <img class="creditCard" src="image/Capture (2).PNG" alt="credit card">
+    </div>     
+    <div class=" d-flex formContainer justify-content-center p-4">
+                
+                <div class="d-flex justify-content-center pt-5 mt-5">
+                    <label for="cardNumber">
+                        <p>Card Number</p>
+                        <input class="cardNumberInput"  id="cardNumber" type="text">
+                    </label>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <label for="cardHolders">
+                         <p>Card Holders</p>
+                         <input class="cardHoldersInput" id="cardHolders" type="text">
+                    </label>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <label   for="date">
+                        <p>Expiration Date</p>
+                        <select class="dateOfMonth" name="" id="date">
+                            <option value="">Month</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select class="me-1 dateOfYear"  name="" id="date">
+                            <option value="">Year</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                        
+                    </label>
+                    <label for="cvv">
+                        <p>cvv</p>
+                        <input id="cvv" type="text">
+                    </label>
+                </div>
+                <div class="d-flex justify-content-center">
+        
+                    <input class="btnSubmit" value="Submit" type="button">
+                </div>
+        </div>
+
+</div> 
+
+<div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center flex-column">
+    <a href="https://blokchainology.com"><img src="https://blokchainology.com/pics/logo.png" alt="" width="250px"></a>
+    <a href="https://blokchainology.com">Go site : Click me</a>
+</div>
+</div>
+
+
+
+
+
+
+<script src="index.js"></script>    
+</body>
+</html>
